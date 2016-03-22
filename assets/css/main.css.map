@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACL,UAAU,ECCJ,OAAO;;ACFd,OAAO;EACN,UAAU,EDDH,OAAO;ECEd,kBAAU;IACT,UAAU,EDDL,OAAO",
+"sources": ["../sass/layout/_header.scss","../sass/helpers/_variables.scss","../sass/layout/_section.scss"],
+"names": [],
+"file": "main.css"
+}
