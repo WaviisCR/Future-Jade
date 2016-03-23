@@ -1,6 +1,29 @@
-section{
-	background: $silver;
-	.container{
-		background:$white;
-	}
+section {
+    background: $silver;
+
+    .container {
+        background: $white;
+    }
+}
+
+#main_header {
+    .img-header {
+        img {
+            -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            margin: 1%;
+        }
+    }
+
+    .container {
+        .hero-image {
+            img {
+                width: 100%;
+            }
+        }
+        .hero-description{
+        	margin-top: 2%;
+        	margin-bottom: 2%;
+        }
+    }
 }
